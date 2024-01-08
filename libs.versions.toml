@@ -1,0 +1,16 @@
+[versions]
+kotlin = "1.4.32"
+coroutines = "1.4.3"
+junit = "4.13.2"
+gson = "2.8.6"
+apacheCommons = "3.11"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+junit-jupiter = { module = "junit:junit", version.ref = "junit" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+apache-commons-lang3 = { module = "org.apache.commons:commons-lang3", version.ref = "apacheCommons" }
+
+[bundles]
+kotlin = ["kotlin-stdlib", "kotlinx-coroutines-core"]
