@@ -53,7 +53,7 @@ Each item in the list is in the following format:
       run: npm install
 
     - name: Check For Dependency Updates
-      uses: ./
+      uses: JuriKiin/android-dependency-updates@2024.1.9
       with:
         file-name: 'libs.versions.toml'
         open-issue: true
